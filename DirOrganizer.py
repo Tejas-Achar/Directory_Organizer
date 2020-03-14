@@ -21,7 +21,8 @@ AudioFiles = "Audio Files"
 Junk = "Junk Files"
 ExeFiles = "Exe Files"
 
-DirectoryMain = r'C:\Users\Tejas\downloads'
+#Read the directory path
+DirectoryMain = r'Enter the directory to organize here'
 
 DocPath = os.path.join(DirectoryMain, DocumentsFoleder)
 PdfPath = os.path.join(DirectoryMain, PdfFiles)
